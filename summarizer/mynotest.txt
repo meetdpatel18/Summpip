@@ -134,3 +134,9 @@ For example, if we pass a noun such as "car" to most_similar using positive=[nou
 We can also pass multiple words to the positive parameter to obtain similarities to a group of words. For example, most_similar(positive=["king", "woman"], negative=["man"]) would return words that are similar to "king" and "woman" but dissimilar to "man", which might include words like "queen", "princess", and so on.
 
 
+
+5) What is degree of Centrality in graph for a node
+-->>Degree centrality is a measure of the importance of a node in a graph, based on the number of edges 
+that connect to that node. The degree centrality of a node is defined as the number of edges incident 
+to the node, divided by the total number of possible edges for that node. It is a normalized measure of node 
+degree, ranging from 0 to 1.
